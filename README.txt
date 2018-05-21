@@ -18,3 +18,5 @@
 
 [脚本文件](option)
 innosetup_example.iss为测试文件，感兴趣的可以下载innosetup5.5.9版本进行测试
+
+联系方式：QQ343375395
