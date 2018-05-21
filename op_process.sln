@@ -1,0 +1,58 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "op_process", "op_process\op_process.vcxproj", "{4E61DF77-0EFF-4CD0-8443-2B6C9EA644F1}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "test_dll", "test_dll\test_dll.vcxproj", "{222DAB03-85E2-4AF0-91D7-B8467977F4B9}"
+	ProjectSection(ProjectDependencies) = postProject
+		{4E61DF77-0EFF-4CD0-8443-2B6C9EA644F1} = {4E61DF77-0EFF-4CD0-8443-2B6C9EA644F1}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "op_process_c", "op_process_c\op_process_c.vcxproj", "{3286551F-EF4D-4B9B-925E-070B17A15FBC}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "op_process_def", "op_process_def\op_process_def.vcxproj", "{44052789-C938-462D-86B2-FBB438DF72A5}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "test_dll_def", "test_dll_def\test_dll_def.vcxproj", "{CF822666-F649-45EF-BE0C-89BEF47DCA32}"
+	ProjectSection(ProjectDependencies) = postProject
+		{44052789-C938-462D-86B2-FBB438DF72A5} = {44052789-C938-462D-86B2-FBB438DF72A5}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "op_process_def2", "op_process_def2\op_process_def2.vcxproj", "{8E5C69AE-E7B0-4FC4-9629-40AFB9418CB1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4E61DF77-0EFF-4CD0-8443-2B6C9EA644F1}.Debug|Win32.ActiveCfg = Debug|Win32
+		{4E61DF77-0EFF-4CD0-8443-2B6C9EA644F1}.Debug|Win32.Build.0 = Debug|Win32
+		{4E61DF77-0EFF-4CD0-8443-2B6C9EA644F1}.Release|Win32.ActiveCfg = Release|Win32
+		{4E61DF77-0EFF-4CD0-8443-2B6C9EA644F1}.Release|Win32.Build.0 = Release|Win32
+		{222DAB03-85E2-4AF0-91D7-B8467977F4B9}.Debug|Win32.ActiveCfg = Debug|Win32
+		{222DAB03-85E2-4AF0-91D7-B8467977F4B9}.Debug|Win32.Build.0 = Debug|Win32
+		{222DAB03-85E2-4AF0-91D7-B8467977F4B9}.Release|Win32.ActiveCfg = Release|Win32
+		{222DAB03-85E2-4AF0-91D7-B8467977F4B9}.Release|Win32.Build.0 = Release|Win32
+		{3286551F-EF4D-4B9B-925E-070B17A15FBC}.Debug|Win32.ActiveCfg = Debug|Win32
+		{3286551F-EF4D-4B9B-925E-070B17A15FBC}.Debug|Win32.Build.0 = Debug|Win32
+		{3286551F-EF4D-4B9B-925E-070B17A15FBC}.Release|Win32.ActiveCfg = Release|Win32
+		{3286551F-EF4D-4B9B-925E-070B17A15FBC}.Release|Win32.Build.0 = Release|Win32
+		{44052789-C938-462D-86B2-FBB438DF72A5}.Debug|Win32.ActiveCfg = Debug|Win32
+		{44052789-C938-462D-86B2-FBB438DF72A5}.Debug|Win32.Build.0 = Debug|Win32
+		{44052789-C938-462D-86B2-FBB438DF72A5}.Release|Win32.ActiveCfg = Release|Win32
+		{44052789-C938-462D-86B2-FBB438DF72A5}.Release|Win32.Build.0 = Release|Win32
+		{CF822666-F649-45EF-BE0C-89BEF47DCA32}.Debug|Win32.ActiveCfg = Debug|Win32
+		{CF822666-F649-45EF-BE0C-89BEF47DCA32}.Debug|Win32.Build.0 = Debug|Win32
+		{CF822666-F649-45EF-BE0C-89BEF47DCA32}.Release|Win32.ActiveCfg = Release|Win32
+		{CF822666-F649-45EF-BE0C-89BEF47DCA32}.Release|Win32.Build.0 = Release|Win32
+		{8E5C69AE-E7B0-4FC4-9629-40AFB9418CB1}.Debug|Win32.ActiveCfg = Debug|Win32
+		{8E5C69AE-E7B0-4FC4-9629-40AFB9418CB1}.Debug|Win32.Build.0 = Debug|Win32
+		{8E5C69AE-E7B0-4FC4-9629-40AFB9418CB1}.Release|Win32.ActiveCfg = Release|Win32
+		{8E5C69AE-E7B0-4FC4-9629-40AFB9418CB1}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,6 @@
+// project.def  
+LIBRARY op_process_def  
+EXPORTS  
+   KillProcessFromNameC
+   FindProcessFromNameC
+   DestroyOpObject
